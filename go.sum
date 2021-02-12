@@ -11,6 +11,7 @@ github.com/hamba/avro v1.0.0 h1:8jnJaZRXd4gbJrmn5Ai1M6iZXWo/P4+FhuumfJNlvQ8=
 github.com/hamba/avro v1.0.0/go.mod h1:ZIXDVvWBhigyORtmBcBgcfylc0ybDBwPcPmUnbCy2NU=
 github.com/hamba/avro v1.5.1 h1:xxDxRRnKg5ab28/DZN6dIVfh4BPSmfSX9LcPVWYZOEs=
 github.com/hamba/avro v1.5.1/go.mod h1:E4TehXLfnE6arFYJBycqD/p5GlApByeVwczfpwlJWmA=
+github.com/hamba/avro v1.5.3/go.mod h1:exfubGLX2KB/GyG9ZwIV0R9t8JT9NxowKBwKk89oCHU=
 github.com/json-iterator/go v1.1.9 h1:9yzud/Ht36ygwatGx56VwCZtlI/2AD15T1X2sjSuGns=
 github.com/json-iterator/go v1.1.9/go.mod h1:KdQUCv79m/52Kvf8AW2vK1V8akMuk1QjK/uOdHXbAo4=
 github.com/json-iterator/go v1.1.10 h1:Kz6Cvnvv2wGdaG/V8yMvfkmNiXq9Ya2KUv4rouJJr68=
