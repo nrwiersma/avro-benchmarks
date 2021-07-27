@@ -1,7 +1,6 @@
 package avro_benchmarks
 
 import (
-	"io/ioutil"
 	"log"
 	"os"
 	"testing"
@@ -34,21 +33,21 @@ type Superpower struct {
 
 func TestMain(m *testing.M) {
 	// Read in the schema
-	schema, err := ioutil.ReadFile("fixtures/superhero.avsc")
+	schema, err := os.ReadFile("fixtures/superhero.avsc")
 	if err != nil {
 		log.Fatal(err)
 	}
 	Schema = string(schema)
 
 	// Read in the payload
-	payload, err := ioutil.ReadFile("fixtures/superhero.bin")
+	payload, err := os.ReadFile("fixtures/superhero.bin")
 	if err != nil {
 		log.Fatal(err)
 	}
 	Payload = payload
 
 	// Read in the payload
-	payload, err = ioutil.ReadFile("fixtures/superhero-simple-block.bin")
+	payload, err = os.ReadFile("fixtures/superhero-simple-block.bin")
 	if err != nil {
 		log.Fatal(err)
 	}
