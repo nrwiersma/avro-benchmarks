@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/actgardner/gogen-avro/v9/compiler"
-	"github.com/actgardner/gogen-avro/v9/vm"
+	"github.com/actgardner/gogen-avro/v10/compiler"
+	"github.com/actgardner/gogen-avro/v10/vm"
 	"github.com/nrwiersma/avro-benchmarks/models"
 	"github.com/stretchr/testify/assert"
 )
@@ -65,7 +65,7 @@ func TestGoGenAvroEncode(t *testing.T) {
 	err := superhero.Serialize(&buf)
 
 	assert.NoError(t, err)
-	//assert.Equal(t, Payload, buf.Bytes()) seems to add 2 bytes
+	// assert.Equal(t, Payload, buf.Bytes()) seems to add 2 bytes
 }
 
 func BenchmarkGoGenAvroEncode(b *testing.B) {
