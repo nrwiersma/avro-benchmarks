@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/actgardner/gogen-avro/v10 v10.2.1
-	github.com/hamba/avro/v2 v2.9.0
+	github.com/hamba/avro/v2 v2.13.0
 	github.com/linkedin/goavro/v2 v2.11.1
 	github.com/stretchr/testify v1.7.1
 	gopkg.in/avro.v0 v0.0.0-20171217001914-a730b5802183
